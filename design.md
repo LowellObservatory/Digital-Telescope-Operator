@@ -24,8 +24,12 @@
  ```
 
 - DTO-Main
-- - Reads the ICF, check status, issues commands via broker
-- - Status will (eventually) include hardware status and weather status
+  - Reads the ICF, check status, issues commands via broker
+  - Status will (eventually) include hardware status and weather status
+  - Maintain log file and send alerts as needed
 - Camera/Filter Wheel Control
+  - Connect to camera/filter wheel via INDI
+  - receive commands from broker, report status when queried
 - Mount/Focus/Dome Control
-- 
+  - Communicate with Mount/Focus/Dome via html api to PWI4
+  - receive commands from broker report status when queried
