@@ -5,6 +5,7 @@
   - This file will be the input to the Digital Telescope Operator
   - This file will be formatted using XML
 
+```
   <camera>
     <image-type>"light"</image-type>
     <filter>"Halpha"</filter>
@@ -17,6 +18,7 @@
     <rightascension>123.56</rightascension>
     <decination>56</declination>
   </point-mount>
+ ```
 
 - DTO-Main
 - Camera/Filter Wheel Control
