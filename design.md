@@ -17,13 +17,15 @@
     <target-name>"Crab Nebula"</target-name>
   </lorax-camera-command>
 
-  <lorax-mount-pointing>
-    <objctra>123.56</objctra>
-    <objctdec>56</objctdec>
-  </lorax-mount-pointing>
+  <lorax-telescope-pointing>
+    <ra_pnt>123.56</ra_pnt>
+    <dec_pnt>56</dec_pnt>
+  </lorax-telescope-pointing>
  ```
 
 - DTO-Main
+- - Reads the ICF, check status, issues commands via broker
+- - Status will (eventually) include hardware status and weather status
 - Camera/Filter Wheel Control
 - Mount/Focus/Dome Control
 - 
