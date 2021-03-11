@@ -4,20 +4,20 @@
   - This file will be the output of the Lorax Scheduler
   - This file will be the input to the Digital Telescope Operator
   - This file will be formatted using XML
-'code'
-<camera>
+
+  <camera>
     <image-type>"light"</image-type>
     <filter>"Halpha"</filter>
     <exptime>100</exptime>
     <binning>”2x2”</binning>
     <target-name>"Crab Nebula"</target-name>
-</camera>
+  </camera>
 
-<point-mount>
+  <point-mount>
     <rightascension>123.56</rightascension>
     <decination>56</declination>
-</point-mount>
-'code'
+  </point-mount>
+
 - DTO-Main
 - Camera/Filter Wheel Control
 - Mount/Focus/Dome Control
