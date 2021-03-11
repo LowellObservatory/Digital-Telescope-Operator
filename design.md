@@ -6,18 +6,21 @@
   - This file will be formatted using XML, ie.:
 
 ```
-  <camera>
+  <lorax-camera-command>
     <image-type>"light"</image-type>
     <filter>"Halpha"</filter>
     <exptime>100</exptime>
-    <binning>”2x2”</binning>
+    <xbinning>2</xbinning>
+    <ybinning>2</ybinning>
+    <xorgsubf>0</xorgsubf>
+    <yorgsubf>0</yorgsubf>
     <target-name>"Crab Nebula"</target-name>
-  </camera>
+  </lorax-camera-command>
 
-  <point-mount>
-    <rightascension>123.56</rightascension>
-    <decination>56</declination>
-  </point-mount>
+  <lorax-mount-pointing>
+    <objctra>123.56</objctra>
+    <objctdec>56</objctdec>
+  </lorax-mount-pointing>
  ```
 
 - DTO-Main
